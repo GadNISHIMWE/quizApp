@@ -28,6 +28,16 @@ const questions= [
             { text: "Antarctica", correct: true},
 
         ]
+    },
+    {
+        question:"which is largest River in the world",
+        answers: [
+            { text: "victoria River", correct: false},
+            { text: "nile River", correct:false },
+            { text: "nyabarongo River", correct:false},
+            { text: "amazon River", correct: true},
+
+        ]
     }
 ];
 const questionElement = document.getElementById("question");
@@ -91,7 +101,7 @@ nextButton.style.display ="block";
 
 function showScore(){
     resetState();
-    questionElement.innerHTML =`you scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML =`you scored ${score} out of ${questions.length}!........so keep it up`;
     nextButton.innerHTML= "Try Again";
     nextButton.style.display ="block";
 }
