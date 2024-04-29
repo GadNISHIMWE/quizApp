@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: rgba(5, 5, 71, 0.63);
 }
 .app{
     background:white;
@@ -21,7 +21,7 @@ body{
 }
 .quiz h2{
 font-size: 18px;
-color: blueviolet;
+color: rgb(116, 50, 178);
 font-weight: 600;
 }
 .btn{
