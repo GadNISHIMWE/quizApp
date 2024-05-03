@@ -5,6 +5,24 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.header .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.header .logo img{
+height: 60%;
+}
+.header .logo a{
+text-decoration: none;
+font-size: 32px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+margin-left: 3px;
+color: #fff;
+}
 .header h1{
     color: darksalmon;
 }
