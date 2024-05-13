@@ -97,7 +97,7 @@ font-weight: 600;
 .incorrect{
     background-color: red;
 }
-.footer{
+.footer1{
     width: 100%;
     height: 30%;
     display: flex;
@@ -109,4 +109,9 @@ font-weight: 600;
     font-weight: bold;
     color: black;
     margin: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
